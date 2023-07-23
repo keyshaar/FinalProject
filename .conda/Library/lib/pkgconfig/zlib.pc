@@ -1,0 +1,13 @@
+prefix=c:/Users/Yos Riyadi/login_systems/.conda/Library
+exec_prefix=c:/Users/Yos Riyadi/login_systems/.conda/Library
+libdir=c:/Users/Yos Riyadi/login_systems/.conda/Library/lib
+sharedlibdir=c:/Users/Yos Riyadi/login_systems/.conda/Library/lib
+includedir=c:/Users/Yos Riyadi/login_systems/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
